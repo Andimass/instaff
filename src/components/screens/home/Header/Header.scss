@@ -804,8 +804,37 @@
   margin-top: 212px;
 }
 
+@keyframes anime{
+  0%{
+      opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+@keyframes anti-anime{
+  100%{
+      opacity: 1;
+  }
+  0%{
+    opacity: 0;
+  }
+}
+
 .header_etap_num_1:hover ~ .header_etap_num_1_text {
+  animation: anime 1s forwards;
   display: block;
+}
+
+.header_etap_num_1_img:hover ~ .header_etap_num_1_text {
+  animation: anime 1s forwards;
+  display: block;
+}
+
+.header_etap_num_1:not(hover) ~ .header_etap_num_1_text {
+  animation: anti-anime 1s forwards;
+  display: none;
 }
 
 .header_etap_num_2{
@@ -864,6 +893,7 @@
 
 .header_etap_num_2:hover ~ .header_etap_num_2_text {
   display: block;
+  animation: anime 1s forwards;
 }
 
 .header_etap_num_2_title{
@@ -949,6 +979,7 @@
 
 .header_etap_num_3:hover ~ .header_etap_num_3_text {
   display: block;
+  animation: anime 1s forwards;
 }
 
 
@@ -1025,6 +1056,7 @@
 
 .header_etap_num_4:hover ~ .header_etap_num_4_text {
   display: block;
+  animation: anime 1s forwards;
 }
 
 
@@ -1089,6 +1121,7 @@
 }
 .header_etap_num_5:hover ~ .header_etap_num_5_text {
   display: block;
+  animation: anime 1s forwards;
 }
 
 .header_etap_num_5_title{
@@ -1175,6 +1208,7 @@
 }
 .header_etap_num_6:hover ~ .header_etap_num_6_text {
   display: block;
+    animation: anime 1s forwards;
 }
 
 .header_etap_num_6_img{
@@ -1248,6 +1282,7 @@
 }
 .header_etap_num_7:hover ~ .header_etap_num_7_text {
   display: block;
+  animation: anime 1s forwards;
 }
 
 .header_etap_num_7_img{
@@ -1322,6 +1357,7 @@
 }
 .header_etap_num_8:hover ~ .header_etap_num_8_text {
   display: block;
+    animation: anime 1s forwards;
 }
 
 .header_etap_num_8_img{
@@ -1395,6 +1431,7 @@
 }
 .header_etap_num_9:hover ~ .header_etap_num_9_text {
   display: block;
+  animation: anime 1s forwards;
 }
 
 .header_etap_num_9_img{
@@ -1468,6 +1505,7 @@
 }
 .header_etap_num_10:hover ~ .header_etap_num_10_text {
   display: block;
+  animation: anime 1s forwards;
 }
 
 .header_etap_num_10_img{
@@ -1540,6 +1578,7 @@
 }
 .header_etap_num_11:hover ~ .header_etap_num_11_text {
   display: block;
+    animation: anime 1s forwards;
 }
 
 .header_etap_num_11_img{
