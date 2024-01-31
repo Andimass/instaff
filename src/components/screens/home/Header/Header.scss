@@ -129,10 +129,10 @@
   font-size: 40px;
   font-weight: 500;
   font-family: 'Montserrat', sans-serif;
-  width: 630px;
+  width: 730px;
   position: absolute;
   margin-left: 680px;
-  margin-top: 80px;
+  margin-top: 100px;
 }
 
 .header_top_img_1 {
@@ -187,7 +187,7 @@
   width: 520px;
   position: absolute;
   margin-left: 680px;
-  margin-top: 290px;
+  margin-top: 250px;
 }
 .header_top_text_2{
   color: #2b3d4f;
@@ -214,14 +214,24 @@
   width: 2494px;
   height: 390px;
   position: absolute;
-  overflow: hidden;
   margin-top: 770px;
   z-index: 9999;
 }
 
+.header_keys_title{
+    color: #2b3d4f;
+    font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  position: absolute;
+  margin-left: 1120px;
+  margin-top: -50px;
+  position: absolute;
+}
+
 .header_keys_title_img{
-  margin-left: 587px;
-  margin-top: 50px;
+  margin-left: 350px;
+  margin-top: 110px;
 }
 
 .header_keys_box_1{
@@ -296,23 +306,42 @@
     overflow: hidden;
 }
 
-//.header_keys_box_3:not(:hover) .header_keys_text_title_3,
-//.header_keys_box_3:not(:hover) .header_keys_text_3{
-//     transform: translateX(200%);
-//     transition: transform 0.001s ease-in-out;
-//}
-//
-//.header_keys_box_3:not(:hover) .header_keys_img_3{
-//    zoom: 150%;
-//    margin-left: 92px;
-//    margin-top: 75px;
-//}
-//
-//.header_keys_box_3:hover .header_keys_text_title_3,
-//.header_keys_box_3:hover .header_keys_text_3{
-//     transform: translateX(0%);
-//     transition: transform 0.3s ease-in-out;
-//}
+.header_keys_box_4{
+  position: absolute;
+    width: 380px;
+  height: 350px;
+  margin-left: 1407px;
+  margin-top: -70px;
+    background-color: #f5f5f5;
+  border: 2px #2b3d4f solid;
+  border-radius: 30px;
+    overflow: hidden;
+}
+
+.header_keys_img_4 {
+  width: 70px;
+  margin-left: 155px;
+  margin-top: 40px;
+}
+
+.header_keys_text_title_4{
+  color: #2b3d4f;
+  margin-left: 105px;
+  font-size: 22px;
+  margin-top: 10px;
+  width: 180px;
+}
+
+.header_keys_text_4{
+  color: #2b3d4f;
+  margin-left: 45px;
+  margin-top: 15px;
+  width: 295px;
+  text-align: center;
+    font-size: 17px;
+    font-weight: 400;
+}
+
 
 .header_keys_img_1 {
   width: 70px;
@@ -335,6 +364,7 @@
   width: 295px;
   text-align: center;
     font-size: 17px;
+  font-weight: 400;
 }
 
 .header_keys_img_2 {
@@ -358,6 +388,7 @@
   width: 295px;
   text-align: center;
     font-size: 17px;
+    font-weight: 400;
 }
 
 .header_keys_img_3 {
@@ -372,6 +403,7 @@
   font-size: 22px;
   margin-top: 10px;
   width: 180px;
+    font-weight: 400;
 }
 
 .header_keys_text_3{
@@ -381,6 +413,7 @@
   width: 295px;
   text-align: center;
     font-size: 17px;
+    font-weight: 400;
 }
 
 .header_about_company{
@@ -388,7 +421,7 @@
   height: 590px;
   position: absolute;
   overflow: hidden;
-  margin-top: 1160px;
+  margin-top: 1220px;
   z-index: 9999;
   background-color: #f5f5f5;
 }
@@ -464,7 +497,7 @@
   width: 2494px;
   position: absolute;
   height: 400px;
-  margin-top: 1750px;
+  margin-top: 1820px;
 }
 
 .header_ourcep_title{
@@ -679,9 +712,10 @@
 .header_etap{
     width: 2494px;
   position: absolute;
-  height: 1420px;
-  margin-top: 2150px;
+  height: 750px;
+  margin-top: 2250px;
   background-color: #f5f5f5;
+  z-index: 1;
 }
 
 .header_etap_title{
@@ -695,274 +729,831 @@
   width: 2495px;
 }
 
+.header_etap_box{
+  position: absolute;
+  margin-left: 200px;
+}
+
 .header_etap_num_1{
   text-align: center;
-  color: rgb(235, 86, 86);
+  color: white;
   font-family: 'Montserrat', sans-serif;
   font-size: 30px;
   font-weight: 500;
-  margin-top: 130px;
+  margin-top: 195px;
   border: 1px #2b3d4f solid;
   border-radius: 100%;
   width: 54px;
   height: 50px;
-  background-color: #2b3d4f;
-  margin-left: 1242px;
-  padding-top: 3px;
+  margin-left: 200px;
+  padding: 30px;
   position: absolute;
 }
 
 .header_etap_num_1:after{
-  width: 2px;
-  height: 143px;
+  width: 180px;
+  height: 2px;
   background-color: black;
   content: "";
   position: absolute;
-  margin-left: -6px;
-  margin-top: 52px;
+  margin-left: 60px;
+  margin-top: 23px;
+}
+
+.header_etap_num_1:before{
+  width: 180px;
+  content: "Этап 1";
+  position: absolute;
+  margin-left: -83px;
+  margin-top: -75px;
+  color: black;
+  height: 200px;
+}
+
+.header_etap_num_1_title{
+  position: absolute;
+  color: #2b3d4f;
+  width: 190px;
+  text-align: center;
+  margin-left: 160px;
+  margin-top: 310px;
+  font-size: 18px;
 }
 
 .header_etap_num_1_text{
     color: #2b3d4f;
     font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-    margin-top: 240px;
+    font-size: 18px;
+    margin-top: 20px;
   font-weight: 500;
-  margin-left: 940px;
-  width: 270px;
+  margin-left: 125px;
+  width: 250px;
   position: absolute;
-    text-align: right;
+  border: 1px black dashed;
+  padding-top: 20px ;
+  height: 110px;
+  padding-left: 20px;
+  background-color: #f5f5f5;
+  display: none;
 }
 
 .header_etap_num_1_img{
   position: absolute;
-  width: 100px;
-  margin-left: 1120px;
-  margin-top: 110px;
+  width: 75px;
+  margin-left: 223px;
+  margin-top: 212px;
+}
+
+.header_etap_num_1:hover ~ .header_etap_num_1_text {
+  display: block;
 }
 
 .header_etap_num_2{
   text-align: center;
-  color: rgb(235, 86, 86);
+  color: white;
   font-family: 'Montserrat', sans-serif;
   font-size: 30px;
   font-weight: 500;
-  margin-top: 330px;
+  margin-top: 195px;
   border: 1px #2b3d4f solid;
   border-radius: 100%;
   width: 54px;
   height: 50px;
-  background-color: #2b3d4f;
-  margin-left: 1242px;
-  padding-top: 3px;
+  margin-left: 510px;
+  padding: 30px;
   position: absolute;
 }
 
 .header_etap_num_2:after{
-  width: 2px;
-  height: 143px;
+  width: 180px;
+  height: 2px;
   background-color: black;
   content: "";
   position: absolute;
-  margin-left: -9px;
-  margin-top: 52px;
+  margin-left: 55px;
+  margin-top: 23px;
+}
+
+.header_etap_num_2:before{
+  width: 180px;
+  content: "Этап 2";
+  position: absolute;
+  margin-left: -80px;
+  margin-top: -75px;
+  color: black;
+  height: 200px;
 }
 
 .header_etap_num_2_text{
     color: #2b3d4f;
     font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-    margin-top: 440px;
+    font-size: 18px;
+    margin-top: 50px;
   font-weight: 500;
-  margin-left: 1330px;
-  width: 300px;
+  margin-left: 450px;
+  width: 250px;
   position: absolute;
+  border: 1px black dashed;
+  padding-top: 20px ;
+  height: 80px;
+  padding-left: 5px;
+  background-color: #f5f5f5;
+  text-align: center;
+  display: none;
+}
+
+.header_etap_num_2:hover ~ .header_etap_num_2_text {
+  display: block;
+}
+
+.header_etap_num_2_title{
+  position: absolute;
+  color: #2b3d4f;
+  width: 190px;
+  text-align: center;
+  margin-left: 471px;
+  margin-top: 310px;
+  font-size: 18px;
 }
 
 .header_etap_num_2_img{
   position: absolute;
-  width: 100px;
-  margin-left: 1330px;
-  margin-top: 320px;
+  width: 72px;
+  margin-left: 533px;
+  margin-top: 212px;
 }
 
 .header_etap_num_3{
   text-align: center;
-  color: rgb(235, 86, 86);
+  color: white;
   font-family: 'Montserrat', sans-serif;
   font-size: 30px;
   font-weight: 500;
-  margin-top: 530px;
+  margin-top: 195px;
   border: 1px #2b3d4f solid;
   border-radius: 100%;
   width: 54px;
   height: 50px;
-  background-color: #2b3d4f;
-  margin-left: 1242px;
-  padding-top: 3px;
+  margin-left: 820px;
+  padding: 30px;
   position: absolute;
 }
 
+.header_etap_num_3_title{
+  position: absolute;
+  color: #2b3d4f;
+  width: 190px;
+  text-align: center;
+  margin-left: 780px;
+  margin-top: 310px;
+  font-size: 18px;
+}
+
 .header_etap_num_3:after{
-  width: 2px;
-  height: 143px;
+  width: 180px;
+  height: 2px;
   background-color: black;
   content: "";
   position: absolute;
-  margin-left: -9px;
-  margin-top: 52px;
+  margin-left: 55px;
+  margin-top: 23px;
+}
+
+.header_etap_num_3:before{
+  width: 180px;
+  content: "Этап 3";
+  position: absolute;
+  margin-left: -80px;
+  margin-top: -75px;
+  color: black;
+  height: 200px;
 }
 
 .header_etap_num_3_text{
     color: #2b3d4f;
     font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-    margin-top: 630px;
+    font-size: 18px;
+    margin-top: 50px;
   font-weight: 500;
-  margin-left: 860px;
-  width: 350px;
+  margin-left: 750px;
+  width: 250px;
   position: absolute;
-    text-align: right;
+  border: 1px black dashed;
+  padding-top: 20px ;
+  height: 80px;
+  padding-left: 5px;
+  background-color: #f5f5f5;
+  text-align: center;
+  display: none;
 }
+
+.header_etap_num_3:hover ~ .header_etap_num_3_text {
+  display: block;
+}
+
 
 .header_etap_num_3_img{
   position: absolute;
-  width: 100px;
-  margin-left: 1120px;
-  margin-top: 510px;
+  width: 72px;
+  margin-left: 845px;
+  margin-top: 212px;
 }
 
 .header_etap_num_4{
   text-align: center;
-  color: rgb(235, 86, 86);
+  color: white;
   font-family: 'Montserrat', sans-serif;
   font-size: 30px;
   font-weight: 500;
-  margin-top: 730px;
+  margin-top: 195px;
   border: 1px #2b3d4f solid;
   border-radius: 100%;
   width: 54px;
   height: 50px;
-  background-color: #2b3d4f;
-  margin-left: 1242px;
-  padding-top: 3px;
+  margin-left: 1130px;
+  padding: 30px;
   position: absolute;
 }
 
+.header_etap_num_4_title{
+  position: absolute;
+  color: #2b3d4f;
+  width: 190px;
+  text-align: center;
+  margin-left: 1093px;
+  margin-top: 310px;
+  font-size: 18px;
+}
+
 .header_etap_num_4:after{
-  width: 2px;
-  height: 143px;
+  width: 180px;
+  height: 2px;
   background-color: black;
   content: "";
   position: absolute;
-  margin-left: -10.5px;
-  margin-top: 52px;
+  margin-left: 55px;
+  margin-top: 23px;
+}
+
+.header_etap_num_4:before{
+  width: 180px;
+  content: "Этап 4";
+  position: absolute;
+  margin-left: -80px;
+  margin-top: -75px;
+  color: black;
+  height: 200px;
 }
 
 .header_etap_num_4_text{
     color: #2b3d4f;
     font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-    margin-top: 840px;
+    font-size: 18px;
+    margin-top: 50px;
   font-weight: 500;
-  margin-left: 1330px;
-  width: 350px;
+  margin-left: 1065px;
+  width: 250px;
   position: absolute;
+  border: 1px black dashed;
+  padding-top: 20px ;
+  height: 80px;
+  padding-left: 5px;
+  background-color: #f5f5f5;
+  text-align: center;
+  display: none;
 }
+
+.header_etap_num_4:hover ~ .header_etap_num_4_text {
+  display: block;
+}
+
 
 .header_etap_num_4_img{
   position: absolute;
-  width: 100px;
-  margin-left: 1325px;
-  margin-top: 710px;
+  width: 72px;
+  margin-left: 1151px;
+  margin-top: 212px;
 }
 
 .header_etap_num_5{
   text-align: center;
-  color: rgb(235, 86, 86);
+  color: white;
   font-family: 'Montserrat', sans-serif;
   font-size: 30px;
   font-weight: 500;
-  margin-top: 930px;
+  margin-top: 195px;
   border: 1px #2b3d4f solid;
   border-radius: 100%;
   width: 54px;
   height: 50px;
-  background-color: #2b3d4f;
-  margin-left: 1242px;
-  padding-top: 3px;
+  margin-left: 1440px;
+  padding: 30px;
   position: absolute;
 }
 
 .header_etap_num_5:after{
-  width: 2px;
-  height: 143px;
+  width: 180px;
+  height: 2px;
   background-color: black;
   content: "";
   position: absolute;
-  margin-left: -9px;
-  margin-top: 52px;
+  margin-left: 55px;
+  margin-top: 23px;
+}
+
+.header_etap_num_5:before{
+  width: 180px;
+  content: "Этап 5";
+  position: absolute;
+  margin-left: -80px;
+  margin-top: -75px;
+  color: black;
+  height: 200px;
 }
 
 .header_etap_num_5_text{
     color: #2b3d4f;
     font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-    margin-top: 1025px;
+    font-size: 18px;
+    margin-top: 1px;
   font-weight: 500;
-  margin-left: 860px;
-  width: 350px;
+  margin-left: 1330px;
+  width: 330px;
   position: absolute;
-    text-align: right;
+  border: 1px black dashed;
+  padding-top: 20px ;
+  height: 135px;
+  padding-left: 20px;
+  background-color: #f5f5f5;
+  display: none;
+}
+.header_etap_num_5:hover ~ .header_etap_num_5_text {
+  display: block;
+}
+
+.header_etap_num_5_title{
+  position: absolute;
+  color: #2b3d4f;
+  width: 190px;
+  text-align: center;
+  margin-left: 1405px;
+  margin-top: 310px;
+  font-size: 18px;
 }
 
 .header_etap_num_5_img{
   position: absolute;
-  width: 100px;
-  margin-left: 1120px;
-  margin-top: 910px;
+  width: 72px;
+  margin-left: 1462px;
+  margin-top: 214px;
 }
 
 .header_etap_num_6{
   text-align: center;
-  color: rgb(235, 86, 86);
+  color: #f5f5f5;
   font-family: 'Montserrat', sans-serif;
   font-size: 30px;
   font-weight: 500;
-  margin-top: 1130px;
+  margin-top: 320px;
   border: 1px #2b3d4f solid;
   border-radius: 100%;
   width: 54px;
   height: 50px;
-  background-color: #2b3d4f;
-  margin-left: 1242px;
-  padding-top: 3px;
+  margin-left: 1810px;
+  padding: 30px;
   position: absolute;
+  background-color: #f5f5f5;
+}
+
+.header_etap_num_6_title{
+  position: absolute;
+  color: #2b3d4f;
+  width: 190px;
+  text-align: center;
+  margin-left: 1905px;
+  margin-top: 363px;
+  font-size: 18px;
+}
+
+.header_etap_num_6:before{
+  width: 280px;
+  content: "Этап 6";
+  position: absolute;
+  margin-left: -250px;
+  margin-top: 1px;
+  color: black;
+  height: 200px;
+}
+
+.header_etap_num_6_dug{
+  position: absolute;
+  margin-left: 1630px;
+  margin-top: 248.5px;
+  border: 2px black solid;
+  padding: 125px;
+    border-radius: 50%;
+  clip-path: circle(71.7% at 50% 0);
+  transform: rotate(90deg);
+  z-index: -111;
 }
 
 .header_etap_num_6_text{
     color: #2b3d4f;
     font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-    margin-top: 1240px;
+    font-size: 18px;
+    margin-top: 175px;
   font-weight: 500;
-  margin-left: 1330px;
-  width: 350px;
+  margin-left: 1725px;
+  width: 250px;
   position: absolute;
+  border: 1px black dashed;
+  padding-top: 20px ;
+  height: 110px;
+  padding-left: 20px;
+  background-color: #f5f5f5;
+  display: none;
+}
+.header_etap_num_6:hover ~ .header_etap_num_6_text {
+  display: block;
 }
 
 .header_etap_num_6_img{
   position: absolute;
-  width: 100px;
-  margin-left: 1325px;
-  margin-top: 1110px;
+  width: 80px;
+  margin-left: 1830px;
+  margin-top: 335px;
+}
+
+.header_etap_num_7{
+  text-align: center;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  margin-top: 447px;
+  border: 1px #2b3d4f solid;
+  border-radius: 100%;
+  width: 54px;
+  height: 50px;
+  margin-left: 200px;
+  padding: 30px;
+  position: absolute;
+}
+
+.header_etap_num_7_title{
+  position: absolute;
+  color: #2b3d4f;
+  width: 190px;
+  text-align: center;
+  margin-left: 161px;
+  margin-top: 560px;
+  font-size: 18px;
+}
+
+.header_etap_num_7:after{
+  width: 180px;
+  height: 2px;
+  background-color: black;
+  content: "";
+  position: absolute;
+  margin-left: 55px;
+  margin-top: 23px;
+}
+
+.header_etap_num_7:before{
+  width: 180px;
+  content: "Этап 11";
+  position: absolute;
+  margin-left: -80px;
+  margin-top: -75px;
+  color: black;
+  height: 200px;
+}
+
+.header_etap_num_7_text{
+    color: #2b3d4f;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    margin-top: 600px;
+  font-weight: 500;
+  margin-left: 125px;
+  width: 260px;
+  position: absolute;
+  border: 1px black dashed;
+  padding-top: 10px ;
+  height: 110px;
+  padding-left: 20px;
+  background-color: #f5f5f5;
+  display: none;
+}
+.header_etap_num_7:hover ~ .header_etap_num_7_text {
+  display: block;
+}
+
+.header_etap_num_7_img{
+  position: absolute;
+  width: 75px;
+  margin-left: 221px;
+  margin-top: 465px;
+}
+
+
+.header_etap_num_8{
+  text-align: center;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  margin-top: 447px;
+  border: 1px #2b3d4f solid;
+  border-radius: 100%;
+  width: 54px;
+  height: 50px;
+  margin-left: 510px;
+  padding: 30px;
+  position: absolute;
+}
+
+.header_etap_num_8_title{
+  position: absolute;
+  color: #2b3d4f;
+  width: 190px;
+  text-align: center;
+  margin-left: 470px;
+  margin-top: 560px;
+  font-size: 18px;
+}
+
+.header_etap_num_8:after{
+  width: 180px;
+  height: 2px;
+  background-color: black;
+  content: "";
+  position: absolute;
+  margin-left: 50px;
+  margin-top: 23px;
+}
+
+.header_etap_num_8:before{
+  width: 180px;
+  content: "Этап 10";
+  position: absolute;
+  margin-left: -75px;
+  margin-top: -75px;
+  color: black;
+  height: 200px;
+}
+
+.header_etap_num_8_text{
+    color: #2b3d4f;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    margin-top: 600px;
+  font-weight: 500;
+  margin-left: 390px;
+  width: 330px;
+  position: absolute;
+  border: 1px black dashed;
+  padding-top: 10px ;
+  height: 120px;
+  padding-left: 20px;
+  background-color: #f5f5f5;
+  display: none;
+}
+.header_etap_num_8:hover ~ .header_etap_num_8_text {
+  display: block;
+}
+
+.header_etap_num_8_img{
+  position: absolute;
+  width: 72px;
+  margin-left: 533px;
+  margin-top: 465px;
+}
+
+.header_etap_num_9{
+  text-align: center;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  margin-top: 447px;
+  border: 1px #2b3d4f solid;
+  border-radius: 100%;
+  width: 54px;
+  height: 50px;
+  margin-left: 820px;
+  padding: 30px;
+  position: absolute;
+}
+
+.header_etap_num_9_title{
+  position: absolute;
+  color: #2b3d4f;
+  width: 190px;
+  text-align: center;
+  margin-left: 781px;
+  margin-top: 560px;
+  font-size: 18px;
+}
+
+.header_etap_num_9:after{
+  width: 180px;
+  height: 2px;
+  background-color: black;
+  content: "";
+  position: absolute;
+  margin-left: 55px;
+  margin-top: 23px;
+}
+
+.header_etap_num_9:before{
+  width: 180px;
+  content: "Этап 9";
+  position: absolute;
+  margin-left: -80px;
+  margin-top: -75px;
+  color: black;
+  height: 200px;
+}
+
+.header_etap_num_9_text{
+    color: #2b3d4f;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    margin-top: 600px;
+  font-weight: 500;
+  margin-left: 735px;
+  width: 260px;
+  position: absolute;
+  border: 1px black dashed;
+  padding-top: 10px ;
+  height: 95px;
+  padding-left: 20px;
+  background-color: #f5f5f5;
+  display: none;
+}
+.header_etap_num_9:hover ~ .header_etap_num_9_text {
+  display: block;
+}
+
+.header_etap_num_9_img{
+  position: absolute;
+  width: 72px;
+  margin-left: 845px;
+  margin-top: 465px;
+}
+
+.header_etap_num_10{
+  text-align: center;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  margin-top: 447px;
+  border: 1px #2b3d4f solid;
+  border-radius: 100%;
+  width: 54px;
+  height: 50px;
+  margin-left: 1130px;
+  padding: 30px;
+  position: absolute;
+}
+
+.header_etap_num_10_title{
+  position: absolute;
+  color: #2b3d4f;
+  width: 190px;
+  text-align: center;
+  margin-left: 1100px;
+  margin-top: 560px;
+  font-size: 18px;
+}
+
+.header_etap_num_10:after{
+  width: 180px;
+  height: 2px;
+  background-color: black;
+  content: "";
+  position: absolute;
+  margin-left: 55px;
+  margin-top: 23px;
+}
+
+.header_etap_num_10:before{
+  width: 180px;
+  content: "Этап 8";
+  position: absolute;
+  margin-left: -80px;
+  margin-top: -75px;
+  color: black;
+  height: 200px;
+}
+
+.header_etap_num_10_text{
+    color: #2b3d4f;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    margin-top: 600px;
+  font-weight: 500;
+  margin-left: 1055px;
+  width: 269px;
+  position: absolute;
+  border: 1px black dashed;
+  padding-top: 10px ;
+  height: 110px;
+  padding-left: 20px;
+  background-color: #f5f5f5;
+  display: none;
+}
+.header_etap_num_10:hover ~ .header_etap_num_10_text {
+  display: block;
+}
+
+.header_etap_num_10_img{
+  position: absolute;
+  width: 72px;
+  margin-left: 1151px;
+  margin-top: 465px;
+}
+.header_etap_num_11{
+  text-align: center;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  margin-top: 447px;
+  border: 1px #2b3d4f solid;
+  border-radius: 100%;
+  width: 54px;
+  height: 50px;
+  margin-left: 1440px;
+  padding: 30px;
+  position: absolute;
+}
+
+.header_etap_num_11_title{
+  position: absolute;
+  color: #2b3d4f;
+  width: 190px;
+  text-align: center;
+  margin-left: 1400px;
+  margin-top: 560px;
+  font-size: 18px;
+}
+
+.header_etap_num_11:after{
+  width: 180px;
+  height: 2px;
+  background-color: black;
+  content: "";
+  position: absolute;
+  margin-left: 55px;
+  margin-top: 23px;
+}
+
+.header_etap_num_11:before{
+  width: 180px;
+  content: "Этап 7";
+  position: absolute;
+  margin-left: -83px;
+  margin-top: -75px;
+  color: black;
+  height: 200px;
+}
+
+.header_etap_num_11_text{
+    color: #2b3d4f;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    margin-top: 600px;
+  font-weight: 500;
+  margin-left: 1365px;
+  width: 290px;
+  position: absolute;
+  border: 1px black dashed;
+  padding-top: 10px ;
+  height: 110px;
+  padding-left: 20px;
+  background-color: #f5f5f5;
+  display: none;
+}
+.header_etap_num_11:hover ~ .header_etap_num_11_text {
+  display: block;
+}
+
+.header_etap_num_11_img{
+  position: absolute;
+  width: 75px;
+  margin-left: 1462px;
+  margin-top: 465px;
 }
 
 .header_preim{
     width: 2494px;
   position: absolute;
   height: 720px;
-  margin-top: 3570px;
+  margin-top: 3670px;
   background: white;
 }
 .header_preim_title_1{
@@ -1086,7 +1677,7 @@
       width: 2494px;
   position: absolute;
   height: 320px;
-  margin-top: 4360px;
+  margin-top: 4460px;
   background: #f5f5f5;
 }
 

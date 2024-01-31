@@ -22,43 +22,44 @@ const Header = () => {
                 <div className='header_up'>
                     <img className='header_up_img' src='/public/logo.png'/>
                     <div className='header_up_text'>
-                        <a className='header_up_text_1' href='#about'>О компании</a>
-                        <a className='header_up_text_2' href='#ourcep'>Цепочка сотрудничества</a>
-                        <a className='header_up_text_3'>Почему мы</a>
-                        <a className='header_up_text_4' href='#etap'>Этапы работы</a>
-                        <a className='header_up_text_5'>В каких сферах мы ищем</a>
+                        <a className='header_up_text_1' href='#about'>Почему мы</a>
+                        <a className='header_up_text_2' href='#ourcep'>Этапы сотрудничества</a>
+                        <a className='header_up_text_3'>Стоимость</a>
+                        <a className='header_up_text_4' href='#etap'>Отзывы и кейсы</a>
+                        <a className='header_up_text_5'>Контакты</a>
                     </div>
                 </div>
                 <div className='header_top'>
                     <div className='header_top_ml'>
-                    <h className='header_top_title'>Подберем идеальных профессионалов, чтобы ваш бизнес расцвел.</h>
+                    <h className='header_top_title'>Найдём сильных специалистов для вашего дела!</h>
                     <img className='header_top_img_1' src='/public/h1.png'/>
                     <img className='header_top_img_2' src='/public/h2.png'/>
                     <img className='header_top_img_3' src='/public/h3.png'/>
                     <div className='header_top_text'>
-                        <p className='header_top_text_1'>Подбираем персонал уже более 2 лет</p>
-                        <p className='header_top_text_2'>Ищем людей по всей России</p>
-                        <p className='header_top_text_3'>Имеем кейсы от менеджеров до директоров</p>
+                        <p className='header_top_text_1'>Точечный подбор персонала в различных сферах бизнеса. От рядового сотрудника до топ-менеджера и управленца</p>
+                        <p className='header_top_text_2'></p>
+                        <p className='header_top_text_3'></p>
                     </div>
                     </div>
                 </div>
                 <div className='header_keys'>
-                    <h className='header_keys_title'>Наши кейсы</h>
+                    <h className='header_keys_title'>Почему мы?</h>
                     <div className='header_keys_title_img'>
                         <div className='header_keys_box_1'>
                             <img className='header_keys_img_1' src='/public/poisk.png'/>
-                            <p className='header_keys_text_title_1'>Знаем где искать</p>
-                            <p className='header_keys_text_1'>В подборе персонала мы используем огромнейшую базу кандидатов, собранную со всех возможных источников</p>
+                            <h2 className='header_keys_text_1'>Релевантные кандидаты в первые дни сотрудничества</h2>
                         </div>
                         <div className='header_keys_box_2'>
                             <img className='header_keys_img_2' src='/public/poisk.png'/>
-                            <p className='header_keys_text_title_2'>Знаем где искать</p>
-                            <p className='header_keys_text_2'>В подборе персонала мы используем огромнейшую базу кандидатов, собранную со всех возможных источников</p>
+                            <h2 className='header_keys_text_2'>Своя методика подбора (не ограничиваемся hh.ru)</h2>
                         </div>
                         <div className='header_keys_box_3'>
                             <img className='header_keys_img_3' src='/public/poisk.png'/>
-                            <p className='header_keys_text_title_3'>Знаем где искать</p>
-                            <p className='header_keys_text_3'>В подборе персонала мы используем огромнейшую базу кандидатов, собранную со всех возможных источников</p>
+                            <h2 className='header_keys_text_3'>Опытные рекрутёры из разных сфер </h2>
+                        </div>
+                        <div className='header_keys_box_4'>
+                            <img className='header_keys_img_4' src='/public/poisk.png'/>
+                            <h2 className='header_keys_text_4'>Средний срок закрытия вакансии 10 дней</h2>
                         </div>
                     </div>
                 </div>
@@ -88,24 +89,53 @@ const Header = () => {
                 </div>
                 <div className='header_etap'>
                     <h2 className='header_etap_title' id='etap'>Этапы выполнения вакансии</h2>
-                    <p className='header_etap_num_1'>1</p>
-                    <p className='header_etap_num_1_text'>Встреча с заказчиком и оценка задачи</p>
-                    <img className='header_etap_num_1_img' src='/public/vsrecha.png'/>
-                    <p className='header_etap_num_2'>2</p>
-                    <p className='header_etap_num_2_text'>Расчет стоимости и коммерческое предложение</p>
-                    <img className='header_etap_num_2_img' src='/public/cena.png'/>
-                    <p className='header_etap_num_3'>3</p>
-                    <p className='header_etap_num_3_text'>Подписание договора и заполнение заявки на поиск кандидата</p>
-                    <img className='header_etap_num_3_img' src='/public/podpis.png'/>
-                    <p className='header_etap_num_4'>4</p>
-                    <p className='header_etap_num_4_text'>Подбор кандидатов и направление их заказчику</p>
-                    <img className='header_etap_num_4_img' src='/public/otbor.png'/>
-                    <p className='header_etap_num_5'>5</p>
-                    <p className='header_etap_num_5_text'>Сопровождение процесса до подтверждения выхода кандидата на работу</p>
-                    <img className='header_etap_num_5_img' src='/public/sopr.png'/>
-                    <p className='header_etap_num_6'>6</p>
-                    <p className='header_etap_num_6_text'>Поддержание контакта с заказчиком и кандидатом в течение гарантийного периода</p>
-                    <img className='header_etap_num_6_img' src='/public/contact.png'/>
+                    <div className='header_etap_box'>
+                        <p className='header_etap_num_1'>1</p>
+                        <p className='header_etap_num_1_title'>Брифинг-встреча</p>
+                        <p className='header_etap_num_1_text'>Заполнение заказчиком заявки на подбор (техническое задание).</p>
+                        <img className='header_etap_num_1_img' src='/public/vsrecha.png'/>
+                        <p className='header_etap_num_2'>2</p>
+                        <p className='header_etap_num_2_title'>Рисуем портрет</p>
+                        <p className='header_etap_num_2_text'>Обсуждаем нюансы идеального кандидата</p>
+                        <img className='header_etap_num_2_img' src='/public/cena.png'/>
+                        <p className='header_etap_num_3'>3</p>
+                        <p className='header_etap_num_3_title'>Аналитика</p>
+                        <p className='header_etap_num_3_text'>Проводим анализ рынка труда и вакансий</p>
+                        <img className='header_etap_num_3_img' src='/public/podpis.png'/>
+                        <p className='header_etap_num_4'>4</p>
+                        <p className='header_etap_num_4_title'>Договор</p>
+                        <p className='header_etap_num_4_text'>Заключаем договор оказания услуг</p>
+                        <img className='header_etap_num_4_img' src='/public/otbor.png'/>
+                        <p className='header_etap_num_5'>5</p>
+                        <p className='header_etap_num_5_title'>Публикация вакансии</p>
+                        <p className='header_etap_num_5_text'>Пишем классный «продаваемый» текст вакансии, учитывая механизм и особенности алгоритмов работных сайтов</p>
+                        <img className='header_etap_num_5_img' src='/public/sopr.png'/>
+                        <p className='header_etap_num_6'>6</p>
+                        <p className='header_etap_num_6_title'>Активный поиск</p>
+                        <p className='header_etap_num_6_text'>Сорсинг релевантных резюме, «холодные» и «тёплые» звонки</p>
+                        <img className='header_etap_num_6_img' src='/public/contact.png'/>
+                        <p className='header_etap_num_6_dug'></p>
+                        <p className='header_etap_num_11'>7</p>
+                        <p className='header_etap_num_11_title'>Интервью</p>
+                        <p className='header_etap_num_11_text'>Проводим первичное интервью. Направляем резюме и итоги с выявлением hard и soft skills</p>
+                        <img className='header_etap_num_11_img' src='/public/vsrecha.png'/>
+                        <p className='header_etap_num_10'>8</p>
+                        <p className='header_etap_num_10_title'>Назначение встречи</p>
+                        <p className='header_etap_num_10_text'>Приглашаем успешных соискателей в офис заказчика или организуем видео собеседование</p>
+                        <img className='header_etap_num_10_img' src='/public/cena.png'/>
+                        <p className='header_etap_num_9'>9</p>
+                        <p className='header_etap_num_9_title'>Обратная связь</p>
+                        <p className='header_etap_num_9_text'>Узнаём итоги у заказчика и кандидата (впечатления и дальнейшие действия)</p>
+                        <img className='header_etap_num_9_img' src='/public/podpis.png'/>
+                        <p className='header_etap_num_8'>10</p>
+                        <p className='header_etap_num_8_title'>Адаптация</p>
+                        <p className='header_etap_num_8_text'>После выхода на работу остаёмся на связи, поддерживаем коммуникацию с сотрудником во время испытательного срока</p>
+                        <img className='header_etap_num_8_img' src='/public/otbor.png'/>
+                        <p className='header_etap_num_7'>11</p>
+                        <p className='header_etap_num_7_title'>Гарантия</p>
+                        <p className='header_etap_num_7_text'>В случае увольнения делаем замену кандидата в течение установленного гарантийного периода</p>
+                        <img className='header_etap_num_7_img' src='/public/sopr.png'/>
+                    </div>
                 </div>
                 <div className='header_preim'>
                     <h2 className='header_preim_title_1'>Преимущества работы с нами</h2>
